@@ -2,6 +2,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useState } from 'react';
 
 interface Project {
+  const COMPLETED_PROJECT_COUNT = 600;
   id: number;
   title: string;
   description: string;
@@ -89,9 +90,8 @@ export default function Gallery() {
             Tamamlanan Projelerimiz
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Müşterilerimiz için gerçekleştirdiğimiz kaliteli taş işçiliği ve peyzaj projelerine göz atın
-          </p>
-        </div>
+  {COMPLETED_PROJECT_COUNT}+ başarılı proje ile doğal taş ve peyzaj alanında güven inşa ediyoruz
+</p>
 
         <div className="relative">
           <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
