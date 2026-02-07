@@ -81,7 +81,7 @@ export default function Footer() {
                     href="mailto:info@yuksel-tas.com"
                     className="text-white hover:text-amber-500 transition-colors duration-300"
                   >
-                    info@yuksel-tas.com
+                    info@yukseltasyapilar.com.tr
                   </a>
                 </div>
               </li>
@@ -110,7 +110,7 @@ export default function Footer() {
             </p>
             <div className="text-gray-400 text-center md:text-right">
               <p className="font-semibold">Mustafa Kemal Yüksel</p>
-              <p className="text-sm">İnşaat & Peyzaj Uzmanı</p>
+              <p className="text-sm">İnşaat & Peyzaj Ustası</p>
             </div>
           </div>
         </div>
